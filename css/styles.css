@@ -1,0 +1,56 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Manga-style font */
+    background-color: #ffffff; /* White background for a clean look */
+    color: #000000; /* Black text for contrast */
+}
+
+h1, h2, h5 {
+    color: #000000; /* Black color for headings */
+}
+
+.manga-bubble {
+    background-color: #f0f0f0; /* Light gray for manga bubble */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Additional CSS styles for card layout */
+.row {
+    display: flex; /* Use Flexbox for the row */
+    flex-wrap: wrap; /* Allow cards to wrap onto multiple lines */
+}
+
+.manga-card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #000000; /* Black border */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Add transition for hover effect */
+    flex: 1; /* Allow cards to grow equally */
+    margin: 10px; /* Add margin for spacing */
+    height: 350px; /* Set a fixed height for all cards */
+    display: flex; /* Use Flexbox for inner content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Distribute space evenly */
+}
+
+.manga-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+#experience .row {
+    justify-content: center; /* Center align experience cards */
+}
+
+
+#profile-image {
+    width: 150px; /* Set a fixed width for the profile image */
+    height: auto; /* Keep aspect ratio */
+}
+
+#footer {
+    background-color: #f0f0f0; /* Light gray footer */
+}
